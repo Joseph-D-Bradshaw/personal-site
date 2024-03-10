@@ -6,16 +6,22 @@ import CV from "./sections/CV";
 import Contact from "./sections/Contact";
 import Home from "./sections/Home";
 
+import styles from "./page.module.css";
+
 export default function App() {
   return (
-    <main>
-      <Navbar />
-      <Badges />
-      <Home />
-      <About />
-      <Projects />
-      <CV />
-      <Contact />
-    </main>
+    <>
+      <Badges style={{ float: "left", marginTop: 60 }} />
+      <main className={styles.grid}>
+        <div style={{ display: "flex", justifyContent: "center", gridArea: "nav" }}>
+          <Navbar />
+        </div>
+        <Home gridArea="home" />
+        <About gridArea="about" />
+        <Projects gridArea="projects" />
+        <CV gridArea="cv" />
+        <Contact gridArea="contact" />
+      </main>
+    </>
   );
 }

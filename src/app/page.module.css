@@ -1,0 +1,10 @@
+.grid {
+  display: grid;
+  grid-template-areas:
+    "nav"
+    "home"
+    "about"
+    "projects"
+    "cv"
+    "contact";
+}

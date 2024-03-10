@@ -1,3 +1,5 @@
-export default function About() {
-  return <h1>About</h1>;
+import { GridArea } from "./types";
+
+export default function About({ gridArea }: { gridArea: GridArea }) {
+  return <h1 style={{ gridArea: gridArea }}>About</h1>;
 }

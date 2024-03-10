@@ -1,3 +1,5 @@
-export default function CV() {
-  return <h1>CV</h1>;
+import { GridArea } from "./types";
+
+export default function CV({ gridArea }: { gridArea: GridArea }) {
+  return <h1 style={{ gridArea: gridArea }}>CV</h1>;
 }

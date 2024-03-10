@@ -1,3 +1,5 @@
-export default function Contact() {
-  return <h1>Contact</h1>;
+import { GridArea } from "./types";
+
+export default function Contact({ gridArea }: { gridArea: GridArea }) {
+  return <h1 style={{ gridArea: gridArea }}>Contact</h1>;
 }
