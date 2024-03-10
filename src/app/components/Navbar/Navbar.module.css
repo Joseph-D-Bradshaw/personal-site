@@ -1,0 +1,31 @@
+.nav {
+  display: flex;
+  width: max-content;
+  background-color: var(--navbar-background);
+  border-radius: var(--border-radius);
+}
+
+.navButton {
+  padding: 1rem 2.8rem;
+}
+
+.navText {
+  color: var(--navbar-text);
+  font-weight: 300;
+}
+
+/* TODO: Sort out font families */
+.navTextSelected {
+  color: var(--active);
+  font-weight: 700;
+}
+
+a.link {
+  cursor: pointer;
+}
+
+.separator {
+  background-color: #202020;
+  width: 1px;
+  margin: 0.8rem 0;
+}

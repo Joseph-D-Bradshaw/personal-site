@@ -1,0 +1,61 @@
+.introContainer {
+  --font-size: 3.15rem;
+  --offset: 1rem;
+  --font-plus-gap: calc(var(--font-size) + var(--offset));
+
+  display: flex;
+  gap: 1rem;
+}
+
+.introText {
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size);
+  font-weight: 400;
+  line-height: var(--font-plus-gap);
+}
+
+.textContainer {
+  height: var(--font-plus-gap);
+  overflow: hidden;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  animation-name: slot-machine;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+.blue {
+  color: var(--blue);
+}
+
+.darkPink {
+  color: var(--dark-pink);
+}
+
+.pink {
+  color: var(--pink);
+}
+
+.orange {
+  color: var(--orange);
+}
+
+@keyframes slot-machine {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+  25% {
+    transform: translate3d(0, calc(-1 * var(--font-plus-gap)), 0);
+  }
+  50% {
+    transform: translate3d(0, calc(-2 * var(--font-plus-gap)), 0);
+  }
+  75% {
+    transform: translate3d(0, calc(-3 * var(--font-plus-gap)), 0);
+  }
+}

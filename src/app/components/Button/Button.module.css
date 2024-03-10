@@ -1,0 +1,18 @@
+.button {
+  border-radius: 30px;
+  border-width: 1px;
+  border-style: solid;
+  padding: 0.6rem 1.2rem;
+  font-family: var(--font-open-sans);
+}
+
+.buttonDark {
+  background-color: var(--primary-background);
+  color: var(--primary-text);
+  border-color: var(--primary-border-color);
+}
+
+.buttonLight {
+  background-color: var(--primary-background-light-mode);
+  color: var(--primary-text-light-mode);
+}

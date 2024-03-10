@@ -1,0 +1,85 @@
+.imageContainer {
+  position: relative;
+}
+
+.meImage {
+  object-fit: contain;
+  width: 360px;
+  height: 361px;
+}
+
+.meContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  gap: 1.4rem;
+}
+
+.meContainer > div {
+  margin: auto;
+}
+
+.myName {
+  font-family: var(--font-montserrat);
+  font-weight: bold;
+  font-size: 4rem;
+  text-wrap: nowrap;
+}
+
+.myDesc {
+  font-family: var(--font-open-sans);
+  font-size: 2rem;
+  color: var(--primary-text);
+  text-wrap: nowrap;
+}
+
+.poco {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 87px;
+  left: 330px;
+}
+
+.pocoImage {
+  object-fit: contain;
+  width: 210px;
+  height: 210px;
+}
+
+.pocosName {
+  font-family: var(--font-montserrat);
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: var(--active);
+}
+
+.pocosDesc {
+  font-family: var(--font-open-sans);
+  font-size: 1rem;
+}
+
+.linearGradient {
+  background-color: var(--blue);
+  /* 854F6C */
+  background-image: linear-gradient(90deg, #0f969c, #854f6c 120%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.nowrap {
+  text-wrap: nowrap;
+}

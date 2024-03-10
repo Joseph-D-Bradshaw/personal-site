@@ -1,0 +1,32 @@
+.companyContainer {
+  display: flex;
+  width: max-content;
+  gap: 4.5rem;
+  align-items: center;
+}
+
+.image {
+  margin: 2rem 0;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.separator {
+  background-color: #282726;
+  width: 1px;
+  margin: 0.8rem 0;
+  align-self: stretch;
+}
+
+.kron {
+  height: 62px;
+}
+
+.statkraft {
+  height: 87px;
+  width: 310px;
+}
+
+.xerox {
+  height: 35px;
+}
