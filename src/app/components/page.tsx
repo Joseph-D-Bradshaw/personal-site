@@ -6,6 +6,8 @@ import Intro from "./Intro/Intro";
 import MeAndPoco from "./MeAndPoco/MeAndPoco";
 import Navbar from "./Navbar/Navbar";
 import { ReactNode } from "react";
+import SkillCards from "./SkillCards/SkillCards";
+import ProjectCards from "./ProjectCards/ProjectCards";
 
 function Wrapper({ title, children }: { title: string; children: ReactNode }) {
   return (
@@ -44,6 +46,12 @@ export default function Page() {
       </Wrapper>
       <Wrapper title="Intro">
         <Intro />
+      </Wrapper>
+      <Wrapper title="Skill Cards">
+        <SkillCards />
+      </Wrapper>
+      <Wrapper title="Project Cards">
+        <ProjectCards />
       </Wrapper>
     </div>
   );

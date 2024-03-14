@@ -17,7 +17,7 @@ export default function App() {
           <Navbar />
         </div>
         <Home />
-        <About gridArea="about" />
+        <About />
         <Projects gridArea="projects" />
         <CV gridArea="cv" />
         <Contact gridArea="contact" />
