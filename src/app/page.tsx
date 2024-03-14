@@ -16,7 +16,7 @@ export default function App() {
         <div style={{ display: "flex", justifyContent: "center", gridArea: "nav" }}>
           <Navbar />
         </div>
-        <Home gridArea="home" />
+        <Home />
         <About gridArea="about" />
         <Projects gridArea="projects" />
         <CV gridArea="cv" />

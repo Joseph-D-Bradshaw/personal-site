@@ -20,6 +20,8 @@
   --dark-pink: #854f6c;
   --pink: #bd83b8;
   --orange: #f1916d;
+
+  color-scheme: dark;
 }
 
 * {
