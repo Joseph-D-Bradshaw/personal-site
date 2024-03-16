@@ -4,7 +4,7 @@ import About from "./sections/About";
 import Projects from "./sections/Projects";
 import CV from "./sections/CV";
 import Contact from "./sections/Contact";
-import Home from "./sections/Home";
+import Home from "./sections/home/Home";
 
 import styles from "./page.module.css";
 

@@ -1,6 +1,6 @@
-import Button from "../components/Button/Button";
-import CompanyBar from "../components/CompanyBar/CompanyBar";
-import MeAndPoco from "../components/MeAndPoco/MeAndPoco";
+import Button from "../../components/Button/Button";
+import CompanyBar from "../../components/CompanyBar/CompanyBar";
+import MeAndPoco from "../../components/MeAndPoco/MeAndPoco";
 import styles from "./Home.module.css";
 
 export default function Home() {

@@ -18,7 +18,7 @@
   gap: 1.4rem;
 }
 
-.meContainer > div {
+.meContainer > .imageContainer {
   margin: auto;
 }
 
@@ -82,4 +82,81 @@
 
 .nowrap {
   text-wrap: nowrap;
+}
+
+/* For smaller screens */
+@media (max-width: 1200px) {
+  .meImage {
+    width: 280px;
+    height: auto;
+  }
+
+  .pocoImage {
+    width: 160px;
+    height: auto;
+  }
+
+  .poco {
+    top: 65px;
+    left: 260px;
+  }
+
+  .pocosName {
+    font-size: 2rem;
+  }
+
+  .pocosDesc {
+    font-size: 0.8rem;
+  }
+
+  .myName {
+    font-size: 3.5rem;
+  }
+
+  .myDesc {
+    font-size: 1.5rem;
+  }
+}
+
+/* For mobiles */
+@media (max-width: 960px) {
+  .meContainer {
+    gap: 1rem;
+  }
+
+  .meContainer > .imageContainer {
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .meImage {
+    width: 200px;
+    height: auto;
+  }
+
+  .pocoImage {
+    width: 100px;
+    height: auto;
+  }
+
+  .poco {
+    top: 50px;
+    left: 180px;
+  }
+
+  .pocosName {
+    display: none;
+  }
+
+  .pocosDesc {
+    display: none;
+  }
+
+  .myName {
+    font-size: 2rem;
+  }
+
+  .myDesc {
+    font-size: 0.8rem;
+  }
 }
