@@ -30,3 +30,47 @@
 .xerox {
   height: 35px;
 }
+
+@media (max-width: 1200px) {
+  .kron {
+    height: 41px;
+  }
+
+  .statkraft {
+    height: 57px;
+    width: 204px;
+  }
+
+  .xerox {
+    height: 23px;
+  }
+}
+
+@media (max-width: 960px) {
+  .companyContainer {
+    flex-direction: column;
+    justify-content: center;
+    gap: 0;
+  }
+
+  .image {
+    margin: 1rem 0;
+  }
+
+  .separator {
+    display: none;
+  }
+
+  .kron {
+    order: 1;
+  }
+
+  .xerox {
+    order: 2;
+    margin: 1.4rem 0;
+  }
+
+  .statkraft {
+    order: 3;
+  }
+}

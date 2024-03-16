@@ -35,6 +35,7 @@
 
   .buttons {
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
+    text-align: center;
   }
 }

@@ -84,7 +84,6 @@
   text-wrap: nowrap;
 }
 
-/* For smaller screens */
 @media (max-width: 1200px) {
   .meImage {
     width: 280px;
@@ -118,7 +117,6 @@
   }
 }
 
-/* For mobiles */
 @media (max-width: 960px) {
   .meContainer {
     gap: 1rem;
