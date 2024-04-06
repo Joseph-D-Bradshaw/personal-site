@@ -11,16 +11,16 @@ import styles from "./page.module.css";
 export default function App() {
   return (
     <>
-      {/* <Badges style={{ float: "left", marginTop: 60 }} /> */}
-      <main style={{ display: "flex", justifyContent: "center" }} className={styles.grid}>
-        {/* <div style={{ display: "flex", justifyContent: "center", gridArea: "nav" }}>
+      <Badges style={{ float: "left", marginTop: 60 }} />
+      <main className={styles.grid}>
+        <div style={{ display: "flex", justifyContent: "center", gridArea: "nav" }}>
           <Navbar />
-        </div> */}
+        </div>
         <Home />
-        {/* <About />
+        <About />
         <Projects gridArea="projects" />
         <CV gridArea="cv" />
-        <Contact gridArea="contact" /> */}
+        <Contact gridArea="contact" />
       </main>
     </>
   );

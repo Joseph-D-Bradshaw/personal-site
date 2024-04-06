@@ -6,7 +6,9 @@ import styles from "./Home.module.css";
 export default function Home() {
   return (
     <div className={styles.grid}>
-      <MeAndPoco />
+      <div>
+        <MeAndPoco />
+      </div>
       <div className={styles.buttons}>
         <Button text="See my work" />
         <Button text="Who am I?" />
