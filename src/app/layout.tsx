@@ -9,6 +9,7 @@ const openSans = Open_Sans({ subsets: ["latin"], variable: "--font-open-sans" })
 export const metadata: Metadata = {
   title: "Welcome!",
   description: "Welcome to Joseph Bradshaw's personal site",
+  viewport: "width=device-width",
 };
 
 export default function RootLayout({
